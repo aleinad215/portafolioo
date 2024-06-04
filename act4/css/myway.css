@@ -1,0 +1,41 @@
+*manda el margen y el padding a 0 */
+*{
+    margin: 0;
+    padding 0;
+}
+/* centrar la caja principal-agrupar */
+#agrupar {
+    width: 980px;
+    margin: 10px auto;
+text-align: left;
+    border: 2px solid;
+    padding: 10px;
+}
+/* estilos para la cabecera de la pagina */
+#cabecera {
+    background: #CFB53B;
+    border: 1px solid #000;
+    padding: 20px;
+}
+/* convierte lista desordenada en barra de menu */
+#menu {
+    background: #CCC;
+    padding: 20px;
+}
+/* estilo de la lista y quitar viñetas */
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;     
+}
+/* estilos para pie de pagina*/
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #FF0000;
+}
+h1 {
+ text-align: center   
+}
